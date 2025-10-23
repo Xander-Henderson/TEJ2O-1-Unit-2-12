@@ -11,7 +11,7 @@ let xandersNeopixelStrip: neopixel.Strip = null
 
 // setup
 basic.clearScreen()
-xandersNeopixelStrip = neopixel.create(DigitalPin.P16, 3, NeoPixelMode.RGB)
+xandersNeopixelStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
 xandersNeopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
 xandersNeopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
 xandersNeopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
