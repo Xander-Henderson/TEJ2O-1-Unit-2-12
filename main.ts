@@ -28,7 +28,7 @@ input.onButtonPressed(Button.A, function () {
     xandersNeopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
     xandersNeopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
     xandersNeopixelStrip.show()
-    distanceToObjest = sonar.ping(DigitalPin.P0, DigitalPin.P0, PingUnit.Centimeters)
+    distanceToObjest = sonar.ping(DigitalPin.P1, DigitalPin.P2, PingUnit.Centimeters)
 
     if (distanceToObjest < 10) {
         xandersNeopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
