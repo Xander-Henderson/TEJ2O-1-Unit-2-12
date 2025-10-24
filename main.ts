@@ -2,7 +2,8 @@
  *
  * Created by: Alexander
  * Created on: Oct 2025
- * This program ...
+ * This program turns a neopixel green if it is more than 
+ * 10cm off of the ground, and truns red if not.
 */
 
 // variables
